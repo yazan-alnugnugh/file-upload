@@ -6,11 +6,30 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "vue",
-    "file",
-    "upload"
-  ],
-  "author": "Yazan Alnughnugh",
-  "license": "ISC"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yazan-alnugnugh/vue-datatable.git"
+    },
+    "keywords": [
+        "javascript",
+        "vue",
+        "vue.js",
+        "component",
+        "file",
+        "uploader",
+        "multiple",
+        "upload",
+        "chunk",
+        "drag",
+        "vue-component",
+        "vue-upload-component",
+        "tailwindcss",
+        "ajax"
+    ],
+    "author": "Yazan Alnughnugh",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yazan-alnugnugh/file-upload/issues"
+    },
+    "homepage": "https://github.com/yazan-alnugnugh/file-upload#readme"
 }

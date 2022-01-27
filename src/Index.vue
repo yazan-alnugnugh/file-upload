@@ -136,7 +136,8 @@ export default {
 
     },
     mounted(){
-        this.request.append('id', this.id);
+        if(this.id)this.request.append('id', this.id);
+
     }
 }
 </script>
