@@ -1,35 +1,35 @@
 {
-    "name": "file-upload",
-    "version": "1.0.1",
-    "description": "File upload component to help you to upload files using ajax",
-    "main": "src/Index.vue",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/yazan-alnugnugh/vue-datatable.git"
-    },
-    "keywords": [
-        "javascript",
-        "vue",
-        "vue.js",
-        "component",
-        "file",
-        "uploader",
-        "multiple",
-        "upload",
-        "chunk",
-        "drag",
-        "vue-component",
-        "vue-upload-component",
-        "tailwindcss",
-        "ajax"
-    ],
-    "author": "Yazan Alnughnugh",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/yazan-alnugnugh/file-upload/issues"
-    },
-    "homepage": "https://github.com/yazan-alnugnugh/file-upload#readme"
+  "name": "@yazan.alnughnugh/file-upload",
+  "version": "1.0.1",
+  "description": "File upload component to help you to upload files using ajax",
+  "main": "index.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yazan-alnugnugh/file-upload.git"
+  },
+  "keywords": [
+    "javascript",
+    "vue",
+    "vue.js",
+    "component",
+    "file",
+    "uploader",
+    "multiple",
+    "upload",
+    "chunk",
+    "drag",
+    "vue-component",
+    "vue-upload-component",
+    "tailwindcss",
+    "ajax"
+  ],
+  "author": "Yazan Alnughnugh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yazan-alnugnugh/file-upload/issues"
+  },
+  "homepage": "https://github.com/yazan-alnugnugh/file-upload#readme"
 }

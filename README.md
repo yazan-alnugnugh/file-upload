@@ -34,13 +34,13 @@ To install and setup the component we will follow a few steps:
 
 #### step 1 
 ```bash
-npm i @yazan.alnughnugh/vue-datatable
+npm i @yazan.alnughnugh/file-upload
 ```
 #### step 2 
 ```javascript
 // app/resources/js/app.js
 
- Vue.component('file-upload', require('@yazan.alnughnugh/vue-datatable').default);
+ Vue.component('file-upload', require('@yazan.alnughnugh/file-upload').default);
 ```
 
 
@@ -58,7 +58,7 @@ npm i @yazan.alnughnugh/vue-datatable
 
 ```
 
-#### request
+#### Request
 The request will send Like bellow
 The files will send one By one , one request for each file
 

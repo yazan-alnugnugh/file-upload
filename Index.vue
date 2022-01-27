@@ -93,7 +93,7 @@ export default {
             return source;
         },
         clickOnInput:function(){
-            const uploadInput = document.getElementById('file-upload');
+            const uploadInput = document.getElementById('yazan-file-upload');
             uploadInput.click();
         },
         clickedInput: function(e){
