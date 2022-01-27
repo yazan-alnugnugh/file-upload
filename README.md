@@ -25,7 +25,13 @@ This is vue component for uploading files using ajax contain amazing features yo
 
 ## Demo
 
- [DataTable Demo](https://packages.tourismcaravan.com/data-table)
+ [File Upload Demo](https://packages.tourismcaravan.com/uploads)
+ 
+## Requirements
+
+* [Tailwind](https://tailwindcss.com/) => 3.*
+* [Axios](https://github.com/axios/axios) => 2.2.17*
+
 
 ## Installation
    
