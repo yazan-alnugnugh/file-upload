@@ -51,7 +51,7 @@
 
 <script>
 import CircleProgress from "./CircleProgress";
-import fileSrc from "./../art/file.png"
+import fileSrc from "./art/file.png"
 
 
 export default {

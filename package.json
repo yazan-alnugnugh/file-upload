@@ -2,7 +2,7 @@
   "name": "@yazan.alnughnugh/file-upload",
   "version": "1.0.3",
   "description": "File upload component to help you to upload files using ajax",
-  "main": "index.vue",
+  "main": "Index.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
