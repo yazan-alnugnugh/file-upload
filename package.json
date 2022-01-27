@@ -1,6 +1,6 @@
 {
   "name": "@yazan.alnughnugh/file-upload",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "File upload component to help you to upload files using ajax",
   "main": "index.vue",
   "scripts": {
