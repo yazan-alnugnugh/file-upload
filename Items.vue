@@ -1,5 +1,5 @@
 <template>
-    <section id="image-container " class="mb-8 mx-auto flex flex-wrap justify-content-start   -ml-3 h-auto">
+    <div id="image-container " class="mb-8 mx-auto flex flex-wrap justify-content-start   -ml-3 h-auto">
         <div v-for="(item, index) in items"  style=" width: 100px; height: 100px;" class="overflow-hidden  relative image-box mt-3 ml-3 block border-2 shadow-xl rounded-md">
 
             <!--      preview images     -->
@@ -46,7 +46,7 @@
             </template>
 
         </div>
-    </section>
+    </div>
 </template>
 
 <script>
