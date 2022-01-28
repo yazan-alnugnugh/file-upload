@@ -30,6 +30,7 @@ This is a vue component for uploading files using ajax. It contain amazing featu
 
 * [Tailwind](https://tailwindcss.com/) => 3.*
 * [Axios](https://github.com/axios/axios) => 2.2.17*
+* [Fontawesome](fontawesome.com) => 5.15*
 
 
 ## Installation
