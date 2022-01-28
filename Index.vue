@@ -1,5 +1,5 @@
 <template>
-    <div class="border border-gray-100	  shadow-xl overflow-hidden sm:rounded-md mx-32 h-auto p-8 mb-8">
+    <div class="border border-gray-100	  shadow-xl overflow-hidden sm:rounded-md md:mx-32 h-auto p-8 mb-8">
 
                     <!--      Tool Bar      -->
              <tool-bar :files="files" :temporaryFiles="temporaryFiles"></tool-bar>
