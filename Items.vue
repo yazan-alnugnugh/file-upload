@@ -78,7 +78,6 @@ export default {
 
                 this.items[index].source.cancel();
                 this.items[index].status = 'cancel';
-                console.log(this.$parent.isAllUploading())
                 if(!this.$parent.isAllUploading()) this.$parent.$data.uploading = false;
             },
             isAllNullExceptOne: function(){

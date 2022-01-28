@@ -12,8 +12,7 @@
 
 **are you looking for an easy way to upload files, this is what are you looking for.**
 
-This is vue component for uploading files using ajax contain amazing features you can use it easily without any complexity
-
+This is a vue component for uploading files using ajax. It contain amazing features, you can use it easily without any complexity.
 ## Features
 - Preview files before upload
 - Multi-file upload
@@ -52,10 +51,13 @@ npm i @yazan.alnughnugh/file-upload
 
 ## Usage
    
-   to start use our component we will add component to our blade file with two props
-   ```url``` is the url where you want to send request to it 
-   ```id``` if you want to send model id with request
-   ```label``` here you can add your description
+to start use the component we will add a component to your blade file with three props, 
+
+   ```url``` is the url where you want to send request to it,
+   
+   ```id``` if you want to send model id with request,
+   
+   ```label``` here you can add your description.
    
 ```html
 // resources/posts/create.blade.php
@@ -65,8 +67,7 @@ npm i @yazan.alnughnugh/file-upload
 ```
 
 #### Request
-The request will send Like bellow
-The files will send one By one , one request for each file
+The request will be the same as bellow, The files will be sent one By one , one request for each file.
 
 ```php
 // resources/posts/create.blade.php

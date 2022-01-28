@@ -61,7 +61,8 @@ export default {
       },
       deleteAll : function(){
 
-          this.cancelUploadAll();
+          if(this.$parent.$data.uploading)   this.cancelUploadAll();
+
           this.$parent.$data.temporaryFiles.forEach(cur => {
               URL.revokeObjectURL(cur);
           })
