@@ -1,3 +1,5 @@
+![npm](https://img.shields.io/npm/dm/@yazan.alnughnugh/file-upload)
+![npm](https://img.shields.io/npm/v/@yazan.alnughnugh/file-upload)
 <h2 align="center">Supporting Upload file component</h2>
 
 - [Become sponsor on Patreon](https://www.patreon.com/yazan_alnughnugh).
