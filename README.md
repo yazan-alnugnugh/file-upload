@@ -24,6 +24,10 @@ This is a vue component for uploading files using ajax. It contain amazing featu
 - Cancel/Cancel all
 - Chunk upload
 
+## Official Documentation
+
+ Documentation for File Upload can be found here[here](https://packages.tourismcaravan.com/docs/1/file-upload)
+
 ## Demo
 
  [File Upload Demo](https://packages.tourismcaravan.com/uploads)
