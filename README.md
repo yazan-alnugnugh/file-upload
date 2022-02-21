@@ -26,7 +26,7 @@ This is a vue component for uploading files using ajax. It contain amazing featu
 
 ## Official Documentation
 
- Documentation for File Upload can be found here[here](https://packages.tourismcaravan.com/docs/1/file-upload)
+ Documentation for File Upload can be found here  [here](https://packages.tourismcaravan.com/docs/1/file-upload)
 
 ## Demo
 
