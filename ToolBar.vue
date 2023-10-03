@@ -43,7 +43,7 @@ export default {
                       this.$parent.$data.files[index] = null;
                       if(this.$parent.$data.files.length - 1 == index) this.$parent.$data.uploading = false;
                       if(!this.$parent.isAllUploading()) this.$parent.$data.uploading = false;
-
+                         this.emitter.emit('updateAll');
                   }).catch(function (error) {
 
                   console.log(error);
@@ -61,8 +61,7 @@ export default {
       },
       deleteAll : function(){
 
-          if(this.$parent.$data.uploading)   this.cancelUploadAll();
-
+          this.cancelUploadAll();
           this.$parent.$data.temporaryFiles.forEach(cur => {
               URL.revokeObjectURL(cur);
           })
