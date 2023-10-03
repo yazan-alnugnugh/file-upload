@@ -51,6 +51,16 @@ To install and setup the component we will follow a few steps:
 npm install `@yazan.alnughnugh/file-upload
 ```
 #### step 2 
+
+Vue 2
+```javascript
+// app/resources/js/app.js
+
+ Vue.component('file-upload', require('@yazan.alnughnugh/file-upload').default);
+
+```
+
+Vue 3
 ```javascript
 // app/resources/js/app.js
  import FileUpload from '@yazan.alnughnugh/file-upload';
