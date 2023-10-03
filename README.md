@@ -48,7 +48,7 @@ To install and setup the component we will follow a few steps:
 
 #### step 1 
 ```bash
-npm i @yazan.alnughnugh/file-upload
+npm install `@yazan.alnughnugh/file-upload
 ```
 #### step 2 
 ```javascript
