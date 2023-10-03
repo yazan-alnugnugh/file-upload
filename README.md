@@ -14,7 +14,7 @@
     <img src="art/intro-image.png" alt="laravel-vue-datatable intro image">
 </p>
 
-**are you looking for an easy way to upload files, this is what are you looking for.**
+**Are you looking for an easy way to upload files, this is what are you looking for.**
 
 This is a vue component for uploading files using ajax. It contain amazing features, you can use it easily without any complexity.
 ## Features
@@ -53,14 +53,19 @@ npm i @yazan.alnughnugh/file-upload
 #### step 2 
 ```javascript
 // app/resources/js/app.js
+ import FileUpload from '@yazan.alnughnugh/file-upload';
 
- Vue.component('file-upload', require('@yazan.alnughnugh/file-upload').default);
+ const app = createApp(options);
+
+ app.component('file-upload', FileUpload);
+ app.mount('#app');
+
 ```
 
 
 ## Usage
    
-to start use the component we will add a component to your blade file with three props, 
+To start use the component we will add a component to your blade file with three props, 
 
    ```url``` is the url where you want to send request to it,
    
